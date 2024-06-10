@@ -3,7 +3,7 @@
 import React, { useEffect, useRef } from 'react'
 import { Chart } from 'chart.js/auto'
 
-function Piechart() {
+function Piechart() { 
     const chartRef = useRef<any>(null)
     const data = {
         labels: [2023, 2045, 2067, 2078, 2080, 2023, 2048],

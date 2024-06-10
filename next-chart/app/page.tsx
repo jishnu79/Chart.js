@@ -10,8 +10,8 @@ export default function Home() {
     <div className="container ml-12 items-center justify-center">
       Chart js
       <div>
-        <h1>Bar chart</h1>
-        <RadharChart />
+        {/* <h1>Bar chart</h1>
+        <RadharChart/> */}
         <h1>Pie Chart</h1>
         <Bubchart />
         <h1>Dot Chart</h1>
